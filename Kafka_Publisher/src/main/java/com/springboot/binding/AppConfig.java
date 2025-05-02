@@ -1,7 +1,7 @@
 package com.springboot.binding;
 
-public class AppConfig 
+public interface AppConfig 
 {
-	private  static final String HOST="localhost:9092";
-	private  static final String TOPIC="kafak-demo-topic";
+		static final String HOST="localhost:9092";
+	  static final String TOPIC="kafak-demo-topic";
 }
